@@ -1,0 +1,1 @@
+create table user(uid int (11) not null auto_increment,uname varchar(50),email varchar(50),primary key(uid));

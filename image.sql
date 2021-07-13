@@ -1,0 +1,1 @@
+create table images(id int (11) not null auto_increment,uid int,image varchar(500),primary key(id),foreign key(uid) references user(uid));
